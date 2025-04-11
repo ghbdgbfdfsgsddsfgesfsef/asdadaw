@@ -342,7 +342,7 @@ print("Silent Aim and ESP Script for Rivals loaded successfully.")
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Build a boat for treasure",
+   Name = "Build a boat for treasure only works in your in build a boat for treasure",
    Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Build-A-Boat-For-Treasure-Ultimte-B3BFT-Script-28601"))()
 
