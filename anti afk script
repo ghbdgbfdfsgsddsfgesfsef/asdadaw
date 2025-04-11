@@ -206,11 +206,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoGameSploit/Roblox
    end,
 })
 
-    Get2.MouseButton1Click:Connect(function()
-        setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkeyv4?hwid=' .. tick())
-        StarterGui:SetCore("SendNotification",{
-            Title = "Key System",
-            Text = "Key Link Copied!",
-            Icon = "rbxassetid://16276677105"
-        })
-	end)
+local Button = AdminTab:CreateButton({
+   Name = "fly",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+   end,
+})
