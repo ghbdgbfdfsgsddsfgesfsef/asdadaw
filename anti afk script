@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "anti afk by HDH_vr 1.73",
+   Name = "anti afk by HDH_vr    version 1.77",
    LoadingTitle = "This took me 8 hours to make",
    LoadingSubtitle = "by Hamzagrxx ",
    ConfigurationSaving = {
@@ -20,7 +20,7 @@ local Window = Rayfield:CreateWindow({
       Subtitle = "Key System",
       Note = "go to website in the video",
       FileName = "bro", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = {"nevereversayunsubtoHDH_vr"} -- List of keys that will be accepted by the system, can be RAW file links () or simple strings ("hello","key22")
    }
@@ -213,11 +213,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/
    end,
 })
 
-local MainTab = Window:CreateTab("more🕗", nil) -- Title, Image
+local MainTab = Window:CreateTab("More", nil) -- Title, Image
 
-local Button = more🕗:CreateButton({
-   Name = "fly",
+local Button = MainTab:CreateButton({
+   Name = "comming soon at update 1.78",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+      
+
    end,
 })
