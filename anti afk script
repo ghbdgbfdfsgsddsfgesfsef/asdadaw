@@ -205,3 +205,12 @@ local Button = AdminTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoGameSploit/Roblox_Scripts/main/swflrel.lua"))()
    end,
 })
+
+    Get2.MouseButton1Click:Connect(function()
+        setclipboard('https://hehehub-acsu123.pythonanywhere.com/api/getkeyv4?hwid=' .. tick())
+        StarterGui:SetCore("SendNotification",{
+            Title = "Key System",
+            Text = "Key Link Copied!",
+            Icon = "rbxassetid://16276677105"
+        })
+	end)
