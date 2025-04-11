@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "HDH_vr",
+   Name = "anti afk by HDH_vr 1.73",
    LoadingTitle = "This took me 8 hours to make",
    LoadingSubtitle = "by Hamzagrxx ",
    ConfigurationSaving = {
@@ -207,6 +207,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoGameSploit/Roblox
 })
 
 local Button = AdminTab:CreateButton({
+   Name = "fly",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+   end,
+})
+
+local MainTab = Window:CreateTab("more🕗", nil) -- Title, Image
+
+local Button = more🕗:CreateButton({
    Name = "fly",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
