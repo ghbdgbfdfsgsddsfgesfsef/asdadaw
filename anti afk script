@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "anti afk by HDH_vr    version 1.77",
+   Name = "anti afk by HDH_vr    version 1.87",
    LoadingTitle = "This took me 8 hours to make",
    LoadingSubtitle = "by Hamzagrxx ",
    ConfigurationSaving = {
