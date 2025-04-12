@@ -348,3 +348,11 @@ local Button = MainTab:CreateButton({
 
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "blue lock rivals",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c84ecefd7fa63a35d454d3ecefe3ee7e.lua"))()
+
+   end,
+})
