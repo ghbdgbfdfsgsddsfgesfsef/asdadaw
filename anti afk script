@@ -356,3 +356,19 @@ local Button = MainTab:CreateButton({
 
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Gun Fight arena",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubGunfightArena"))() 
+
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Fisch you need a key tho",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nivex123456/main/refs/heads/main/Loader.lua"))()
+
+   end,
+})
