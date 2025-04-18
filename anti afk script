@@ -379,10 +379,3 @@ local Button = MainTab:CreateButton({
 
    end,
 })
-local Button = MainTab:CreateButton({
-   Name = "comming soon",
-   Callback = function()
-   
-
-   end,
-})
