@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "anti afk by HDH_vr    version 1.87",
+   Name = "anti afk by HDH_vr    version 1.96",
    LoadingTitle = "This took me 8 hours to make",
    LoadingSubtitle = "by Hamzagrxx ",
    ConfigurationSaving = {
@@ -218,7 +218,7 @@ local MainTab = Window:CreateTab("More", nil) -- Title, Image
 local Button = MainTab:CreateButton({
    Name = "Bloxfruits",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/ZenithHub/refs/heads/main/Loader"))()
 
    end,
 })
@@ -369,6 +369,20 @@ local Button = MainTab:CreateButton({
    Name = "Fisch you need a key tho",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nivex123456/main/refs/heads/main/Loader.lua"))()
+
+   end,
+})
+local Button = MainTab:CreateButton({
+   Name = "Fisch No Key",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+
+   end,
+})
+local Button = MainTab:CreateButton({
+   Name = "my youtube",
+   Callback = function()
+   https://www.youtube.com/@HDH_vr
 
    end,
 })
